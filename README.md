@@ -2,7 +2,7 @@
 Weed detection is crucial for improving crop productivity and efficient agricultural management. Weeds compete with crops for essential resources like water and sunlight and contribute to the spread of diseases and pests. Automating weed classification through image processing represents a significant advancement in agriculture, helping farmers manage crops more effectively. 
 
 # Projective Objective 
-- The goal of this project is to classify two types of weeds—Charlock and Cleves—using image processing and machine learning techniques. The dataset is adapted from a Kaggle competition and consists of three folders: train, validation, and test.[Check here for the dataset](https://www.kaggle.com/c/plant-seedlings-classification/data)
+- The goal of this project is to classify two types of weeds—Charlock and Cleves—using image processing and machine learning techniques. The dataset is adapted from a Kaggle competition and consists of three folders: train, validation, and test. Check here for [the dataset](https://www.kaggle.com/c/plant-seedlings-classification/data)
 - Single classifiers like logistic regression and SVC were compared with ensemble learning techniques such as random forest, stacking, and voting to improve classification accuracy.
 - By automating weed classification, this project aims to enhance decision-making in weed management, ultimately improving agricultural productivity and resource management.
 
