@@ -14,7 +14,7 @@ This project focuses on classifying two types of weeds—Charlock and Cleves—u
 The same preprocessing and feature extraction techniques were applied to the validation and test datasets.
 - **Hyperparameter Tuning**: Conducted hyperparameter tuning for models such as logistic regression, SVC, and random forest to optimize performance for weed classification.
 - **Building Models**:
-  - Trained single classifiers including logistic regression and SVC, which were chosen for their ability to handle the complexity of the dataset. Random forest was employed to improve classification accuracy through its robust decision tree ensemble.
+  - Trained single classifiers including logistic regression, Random Forest,  and SVC, which were chosen for their ability to handle the complexity of the dataset. Random forest was employed to improve classification accuracy through its robust decision tree ensemble.
   - Applied stacking and voting ensemble methods to combine multiple classifiers, leveraging their strengths to enhance accuracy and model robustness. In addition, this project used CNN for weed classification. 
 - **Evaluation** : The performance of the models was evaluated using a confusion matrix along with accuracy, precision, recall, and F1-score metrics.
 
