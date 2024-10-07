@@ -21,7 +21,7 @@ The same preprocessing and feature extraction techniques were applied to the val
 # Project Result
 -	Logistic Regression achieved 92% accuracy, Random Forest reached 91%, and SVC delivered 94%, with stable recall and precision across both weed types.
 -	The Voting Classifier achieved the highest accuracy at 96%, followed closely by the Stacking Classifier with 95%, both showing balanced performance and strong generalization.
--	CNN: Outperformed traditional machine learning models with a 97% accuracy, attributed to its automatic feature extraction capabilities and ability to handle complex patterns in the data.
+-	CNN outperformed traditional machine learning models with 97% accuracy due to its automatic feature extraction capabilities and ability to handle complex patterns in the data.
   
 # Conclusion : 
 The weed classification project successfully applied image processing and machine learning, with logistic regression, SVC, and random forest exceeding 90% accuracy. Ensemble learning, particularly the voting classifier, reached 96% accuracy, while CNN achieved 97% due to advanced feature extraction. Hyperparameter tuning and techniques like HOG, color histograms, and LBP significantly improved model accuracy.
