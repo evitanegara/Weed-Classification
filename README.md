@@ -25,3 +25,6 @@ The same preprocessing and feature extraction techniques were applied to the val
   
 # Conclusion : 
 The weed classification project successfully applied image processing and machine learning, with logistic regression, SVC, and random forest exceeding 90% accuracy. Ensemble learning, particularly the voting classifier, reached 96% accuracy, while CNN achieved 97% due to advanced feature extraction. Hyperparameter tuning and techniques like HOG, color histograms, and LBP significantly improved model accuracy.
+
+# Contact
+For any questions or inquiries, please contact evitanegara@gmail.com
