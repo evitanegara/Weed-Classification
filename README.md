@@ -52,13 +52,19 @@ To further enhance classification accuracy, a Convolutional Neural Network (CNN)
 - This architecture allows the model to progressively learn low-to-high-level features, enhancing its ability to distinguish weed types based on shape, texture, and structure.
   
 ## Model Evaluation Results
-![image](https://github.com/user-attachments/assets/aa378c27-a24a-489b-be34-b8abf3ad0a51)
-![image](https://github.com/user-attachments/assets/19569c02-7554-4268-ba03-e9f2c066ab3e)
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/aa378c27-a24a-489b-be34-b8abf3ad0a51" alt="Forecasting" width="500"/>
+</p>
 
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/19569c02-7554-4268-ba03-e9f2c066ab3e" alt="Forecasting" width="500"/>
+</p>
 
 ## Confusion Matrix Visualization
 Each confusion matrix below illustrates the classification breakdown for Charlock and Cleavers by model, offering a transparent view into how each algorithm handles false positives and false negatives.
-![image](https://github.com/user-attachments/assets/7586cb9a-8bf8-49c4-a616-14ebf877fd9f)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7586cb9a-8bf8-49c4-a616-14ebf877fd9f" width="500"/>
+</p>
 
 ## Highlights & Confusion Matrix Insights
 
