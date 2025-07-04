@@ -50,7 +50,7 @@ To further enhance classification accuracy, a Convolutional Neural Network (CNN)
 - ReLU activation was applied after each convolution layer to introduce non-linearity and reduce vanishing gradients
 - The final Dense layer uses Softmax activation for binary classification (Charlock vs. Cleavers)
 - This architecture allows the model to progressively learn low-to-high-level features, enhancing its ability to distinguish weed types based on shape, texture, and structure.
-- 
+  
 ## Model Evaluation Results
 ![image](https://github.com/user-attachments/assets/aa378c27-a24a-489b-be34-b8abf3ad0a51)
 ![image](https://github.com/user-attachments/assets/19569c02-7554-4268-ba03-e9f2c066ab3e)
