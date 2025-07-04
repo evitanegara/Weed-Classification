@@ -1,11 +1,11 @@
 # Weed Classification Using Image Processing and Ensemble Learning
 # Project Overview
-This project focuses on classifying two types of weeds—Charlock and Cleavers—using image processing, machine learning, and ensemble methods. Weeds reduce crop yield by competing for essential resources and fostering pest infestations. Automating weed detection helps optimize herbicide use and improve agricultural efficiency. The project compares traditional classifiers (Logistic Regression, Random Forest, SVC) with ensemble approaches (Voting, Stacking) and a Convolutional Neural Network (CNN). Advanced feature extraction techniques (HOG, LBP, Color Histograms) are employed for traditional models, while CNN performs automatic feature learning.
+This project focuses on classifying two types of weedsCharlock and Cleavers—using image processing, machine learning, and ensemble methods. Weeds reduce crop yield by competing for essential resources and fostering pest infestations. Automating weed detection helps optimize herbicide use and improve agricultural efficiency. The project compares traditional classifiers (Logistic Regression, Random Forest, SVC) with ensemble approaches (Voting, Stacking) and a Convolutional Neural Network (CNN). Advanced feature extraction techniques (HOG, LBP, Color Histograms) are employed for traditional models, while CNN performs automatic feature learning.
 
 ## Dataset Overview
 - **Source:** [Kaggle Plant Seedlings Classification](https://www.kaggle.com/competitions/plant-seedlings-classification/)
 - **Weed Types:** Charlock and Cleavers
-- **Structure:** Three folders — `train`, `validation`, and `test`
+- **Structure:** Three folders train, validation, and test
 
 | Subset     | Charlock | Cleavers | Total Images |
 |------------|----------|----------|--------------|
@@ -62,17 +62,17 @@ Each confusion matrix below illustrates the classification breakdown for Charloc
 
 ## Highlights & Confusion Matrix Insights
 
-- Voting Classifier achieved the highest accuracy (96%), correctly predicting 86 of 90 Charlock and 65 of 68 Cleavers, with only 7 total misclassifications — demonstrating exceptional consistency across both classes.
+- Voting Classifier achieved the highest accuracy (96%), correctly predicting 86 of 90 Charlock and 65 of 68 Cleavers, with only 7 total misclassifications, demonstrating exceptional consistency across both classes.
 
 - Stacking Classifier followed closely with 95% accuracy, effectively integrating multiple base learners into a robust and generalizable meta-model.
 
 - Support Vector Classifier (SVC) delivered a strong 94% accuracy, with particularly high recall for Charlock (96%), showcasing its strength in handling high-dimensional features.
 
-- Logistic Regression reached 92% accuracy, showing that linear models — when combined with rich feature extraction like HOG and LBP — can be highly effective.
+- Logistic Regression reached 92% accuracy, showing that linear models, when combined with rich feature extraction like HOG and LBP — can be highly effective.
 
 - Random Forest performed moderately at 89% accuracy, but misclassified 11 Charlock samples, indicating possible sensitivity to noise or overfitting on complex patterns.
 
-- Convolutional Neural Network (CNN) outperformed all traditional models with approximately 97% accuracy. Its architecture — with 3 Conv2D layers, ReLU activation, and MaxPooling2D — enabled automatic extraction of hierarchical image features, leading to superior generalization.
+- Convolutional Neural Network (CNN) outperformed all traditional models with approximately 97% accuracy. Its architecture — with 3 Conv2D layers, ReLU activation, and MaxPooling2D, enabled automatic extraction of hierarchical image features, leading to superior generalization.
 
 ## Key Takeaways
 
