@@ -3,9 +3,9 @@
 This project focuses on classifying two types of weeds Charlock and Cleavers using image processing, machine learning, and ensemble methods. Weeds reduce crop yield by competing for essential resources and fostering pest infestations. Automating weed detection helps optimize herbicide use and improve agricultural efficiency. The project compares traditional classifiers (Logistic Regression, Random Forest, SVC) with ensemble approaches (Voting, Stacking) and a Convolutional Neural Network (CNN). Advanced feature extraction techniques (HOG, LBP, Color Histograms) are employed for traditional models, while CNN performs automatic feature learning.
 
 ## Dataset Overview
-- **Source:** [Kaggle Plant Seedlings Classification](https://www.kaggle.com/competitions/plant-seedlings-classification/)
-- **Weed Types:** Charlock and Cleavers
-- **Structure:** Three folders train, validation, and test
+- Source: [Kaggle Plant Seedlings Classification](https://www.kaggle.com/competitions/plant-seedlings-classification/)
+- Weed Types: Charlock and Cleavers
+- Structure: Three folders train, validation, and test
 
 | Subset     | Charlock | Cleavers | Total Images |
 |------------|----------|----------|--------------|
