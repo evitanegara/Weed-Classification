@@ -22,8 +22,8 @@ This project focuses on classifying two types of weeds Charlock and Cleavers usi
 - Resized all images to 256×256 pixels
 - Converted to grayscale
 - Extracted features using:
-  - HOG (Histogram of Oriented Gradients)**
-  - Color Histograms**
+  - HOG (Histogram of Oriented Gradients)
+  - Color Histograms
   - Local Binary Patterns (LBP)
 
 ### 3. Feature Processing for Validation and Test Sets
